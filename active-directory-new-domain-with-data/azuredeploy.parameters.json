@@ -9,7 +9,7 @@
       "value": "Standard_LRS"
     },
     "location": {
-      "value": "North Central US"
+      "value": "East US"
     },
     "adminUsername": {
       "value": "pstork"
@@ -27,7 +27,7 @@
       "value": "acmeman"
     },
     "assetLocation": {
-      "value": "https://raw.githubusercontent.com/GoateePFE/AzureRM/master/active-directory-new-domain-with-data/"
+      "value": "https://raw.githubusercontent.com/pstork/AzureRM/master/active-directory-new-domain-with-data/"
     }
   }
 }
