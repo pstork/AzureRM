@@ -3,28 +3,28 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": "GEN-UNIQUE"
+      "value": "hondadev"
     },
     "storageAccountType": {
-      "value": "Standard_GRS"
+      "value": "Standard_LRS"
     },
     "location": {
-      "value": "West US"
+      "value": "North Central US"
     },
     "adminUsername": {
-      "value": "azureuser"
+      "value": "pstork"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "Chr0n0s1"
     },
     "adVMSize": {
-      "value": "Standard_D1"
+      "value": "Standard_A1"
     },
     "domainName": {
-      "value": "mydomain.local"
+      "value": "acmeman.local"
     },
     "addnsName": {
-      "value": "GEN-UNIQUE"
+      "value": "acmeman"
     },
     "assetLocation": {
       "value": "https://raw.githubusercontent.com/GoateePFE/AzureRM/master/active-directory-new-domain-with-data/"
