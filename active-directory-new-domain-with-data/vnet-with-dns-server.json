@@ -6,8 +6,7 @@
       "type": "string",
       "allowedValues": [
         "West US",
-	"North Central US",
-        "East US",
+	 "East US",
         "West Europe",
         "East Asia",
         "Southeast Asia"
