@@ -6,7 +6,7 @@
       "type": "string",
       "allowedValues": [
         "West US",
-		"North Central US",
+	"North Central US",
         "East US",
         "West Europe",
         "East Asia",
@@ -27,7 +27,7 @@
       "metadata": {
         "Description": "The address range of the new VNET in CIDR format"
       },
-      "defaultValue": "10.0.10.0/16"
+      "defaultValue": "10.0.0.0/16"
     },
     "subnetName": {
       "type": "string",
@@ -40,7 +40,7 @@
       "metadata": {
         "Description": "The address range of the subnet created in the new VNET"
       },
-      "defaultValue": "10.0.10.0/24"
+      "defaultValue": "10.0.0.0/24"
     },
     "DNSServerAddress": {
       "type": "array",
@@ -54,7 +54,7 @@
       "name": "[parameters('virtualNetworkName')]",
       "type": "Microsoft.Network/virtualNetworks",
       "location": "[parameters('location')]",
-      "apiVersion": "2015-05-01-preview",
+      "apiVersion": "2016-09-01",
       "properties": {
         "addressSpace": {
           "addressPrefixes": [
