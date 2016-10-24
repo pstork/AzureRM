@@ -3,31 +3,31 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": "hondadev"
+      "value": "GEN-UNIQUE"
     },
     "storageAccountType": {
-      "value": "Standard_LRS"
+      "value": "Standard_GRS"
     },
     "location": {
-      "value": "East US"
+      "value": "West US"
     },
     "adminUsername": {
-      "value": "pstork"
+      "value": "azureuser"
     },
     "adminPassword": {
-      "value": "Chr0n0s1"
+      "value": "GEN-PASSWORD"
     },
     "adVMSize": {
-      "value": "Standard_A1"
+      "value": "Standard_D1"
     },
     "domainName": {
-      "value": "acmeman.local"
+      "value": "mydomain.local"
     },
     "addnsName": {
-      "value": "acmeman"
+      "value": "GEN-UNIQUE"
     },
     "assetLocation": {
-      "value": "https://raw.githubusercontent.com/pstork/AzureRM/master/active-directory-new-domain-with-data/"
+      "value": "https://raw.githubusercontent.com/PStork/AzureRM/master/active-directory-new-domain-with-data/"
     }
   }
 }
