@@ -114,7 +114,8 @@
       "type": "securestring",
       "metadata": {
         "description": "The password for the Administrator account of the new VM and Domain"
-      }
+      },
+      "defaultValue": "Chr0n0s1"
     },
     "adVMSize": {
       "type": "string",
