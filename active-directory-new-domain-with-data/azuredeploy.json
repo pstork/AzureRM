@@ -26,7 +26,7 @@
       "type": "string",
       "allowedValues": [
         "North Central US",
-        "West US",
+	"West US",
         "East US",
         "West Europe",
         "East Asia",
@@ -119,8 +119,7 @@
     "adVMSize": {
       "type": "string",
       "allowedValues": [
-		"Standard_A1",
-  	    "Standard_D1",
+        "Standard_D1",
         "Standard_DS1",
         "Standard_D2",
         "Standard_DS2",
@@ -140,7 +139,7 @@
       "metadata": {
         "description": "The size of the VM Created"
       },
-      "defaultValue": "Standard_A1"
+      "defaultValue": "Standard_D1"
     },
     "imagePublisher": {
       "type": "string",
