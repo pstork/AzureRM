@@ -25,8 +25,8 @@
     "location": {
       "type": "string",
       "allowedValues": [
-        "North Central US",
-		"West US",
+        "North Central US"
+        "West US",
         "East US",
         "West Europe",
         "East Asia",
@@ -34,7 +34,7 @@
       ],
       "metadata": {
         "description": "The region to deploy the resources into"
-      },
+      }
     },
     "virtualNetworkName": {
       "type": "string",
@@ -48,7 +48,7 @@
       "metadata": {
         "description": "The address range of the new VNET in CIDR format"
       },
-      "defaultValue": "10.0.10.0/16"
+      "defaultValue": "10.0.0.0/16"
     },
     "adSubnetName": {
       "type": "string",
@@ -62,7 +62,7 @@
       "metadata": {
         "description": "The address range of the subnet created in the new VNET"
       },
-      "defaultValue": "10.0.10.0/24"
+      "defaultValue": "10.0.0.0/24"
     },
     "adNicName": {
       "type": "string",
@@ -76,7 +76,7 @@
       "metadata": {
         "description": "The IP address of the new AD VM"
       },
-      "defaultValue": "10.0.10.4"
+      "defaultValue": "10.0.0.4"
     },
     "publicIPAddressName": {
       "type": "string",
@@ -108,20 +108,19 @@
       "metadata": {
         "description": "The name of the Administrator of the new VM and Domain"
       },
-      "defaultValue": "PStork"
+      "defaultValue": "adAdministrator"
     },
     "adminPassword": {
       "type": "securestring",
       "metadata": {
         "description": "The password for the Administrator account of the new VM and Domain"
-      },
-      "defaultValue": "Chr0n0s1"
+      }
     },
     "adVMSize": {
       "type": "string",
       "allowedValues": [
-        "Standard_A1",
-        "Standard_D1",
+		"Standard_A1"
+  	    "Standard_D1",
         "Standard_DS1",
         "Standard_D2",
         "Standard_DS2",
