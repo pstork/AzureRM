@@ -9,9 +9,9 @@
     NonNodeData = @{
 
         UserData = @'
-UserName,Password,Dept,Title,EmailAddress
-PStork,Chr0n0s1,Accounting,Manager,pstork@acmeman.com
-Bob,Chr0n0s1,IT,Manager,bob@acmeman.com
+UserName,Password,Dept,Title
+PStork,Chr0n0s1,Accounting,Manager
+Bob,Chr0n0s1,IT,Manager
 '@
 
         RootOUs = 'Accounting','IT','Marketing','Operations'
