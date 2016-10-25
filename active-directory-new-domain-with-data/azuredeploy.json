@@ -119,6 +119,7 @@
     "adVMSize": {
       "type": "string",
       "allowedValues": [
+        "Standard_A1",
         "Standard_D1",
         "Standard_DS1",
         "Standard_D2",
