@@ -20,6 +20,9 @@
     "adVMSize": {
       "value": "Standard_A1"
     },
+    "adVMName": {
+      "value": "adDC01"
+    },  
     "domainName": {
       "value": "mydomain.local"
     },
